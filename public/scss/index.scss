@@ -152,7 +152,7 @@ ul.show {
 /*       Contenido de texto       */
 
 .introduccion {
-    background-color: lightgray;
+    background-color: #e6e6e6;
 }
 
 .introduccion__titulo {
@@ -188,9 +188,15 @@ ul.show {
     height: 355px;
 }
 
+.coberturas__titulo--container {
+    width: 130px;
+    margin: 0 auto;
+}
+
 .coberturas__titulo {
     text-align: center;
     margin-bottom: 20px;
+    border-bottom: 2px solid #00bfff;
 }
 
 .coberturas__imagenes {
@@ -238,6 +244,71 @@ ul.show {
         margin-bottom: 60px;
     }
 }
+
+/*       Boton arriba       */
+
+.go__top--container {
+    position: fixed;
+    width: 6.6rem;
+    height: 6.6rem;
+    bottom: 4rem;
+    right: 4rem;
+    z-index: -1;
+}
+
+.go__top--button {
+    background-color: #00bfff;
+    border-radius: 50%;
+    height: 0rem;
+    width: 0rem;
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go__top--button i {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transition: .2s;
+}
+
+.show__button {
+    z-index: 10;
+}
+
+.show__button .go__top--button {
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+
+.show__button i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+    100% {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+
+
 
 /*       Footer       */
 

@@ -97,23 +97,72 @@ ul.show {
 /*       Sobre Mi       */
 
 .smContainer {
-  height: 500px;
+  background-color: #e6e6e6;
+}
+
+.tituloContainer {
+  width: 220px;
+  margin: 0 auto;
 }
 
 .titulo {
   text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #003cb3;
 }
 
 .sobreMi {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 12px;
+  margin-left: 12px;
+  align-self: center;
+}
+
+.imagenPersonal {
+  width: 225px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  border-radius: 7px;
+  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.7));
+}
+
+.smContenidoContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 425px) {
+  .imagenPersonal {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imagenPersonal {
+    width: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  .smContenidoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .imagenPersonal {
+    margin-top: 0px;
+  }
 }
 
 /*       Footer       */
 
 .footer {
     background-color: #4d4d4d;
-    border-top: 4px solid #1aa3ff;
+    border-top: 4px solid #003cb3;
     padding: 20px 0 20px 0;
 }
 
@@ -156,7 +205,7 @@ ul.show {
 }
 
 .footer__map__items:hover {
-    background-color: cornflowerblue;
+    background-color: #003cb3;
     border-radius: 3px;
     transition: .4s;
 }

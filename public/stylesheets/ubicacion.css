@@ -102,15 +102,29 @@ ul.show {
   background-size: cover;
   background-position: center center;
   position: relative;
-  height: 620px;
 }
 
+.tituloContainer {
+  width: 120px;
+  margin: 0 auto;
+}
 
 .titulo {
+  text-align: center;
+  border-bottom: 2px solid #669999;
+  color: white;
+  padding-top: 35px;
+}
+
+.subTitulo {
   text-align: center;
   padding-top: 45px;
   color: white;
   filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.7));
+}
+
+.ubicacionContainer {
+  padding-bottom: 35px;
 }
 
 .mapa {
@@ -118,7 +132,7 @@ ul.show {
   margin: 0 auto;
   width: 300px;
   height: 300px;
-  margin-top: 50px;
+  margin-top: 15px;
   background-color: white;
   padding: 15px 15px 15px 15px;
   border-radius: 7px;
@@ -143,7 +157,7 @@ ul.show {
 
 .footer {
     background-color: #4d4d4d;
-    border-top: 4px solid #003399;
+    border-top: 4px solid #669999;
     padding: 20px 0 20px 0;
 }
 
@@ -186,7 +200,7 @@ ul.show {
 }
 
 .footer__map__items:hover {
-    background-color: #003399;
+    background-color: #669999;
     border-radius: 3px;
     transition: .4s;
 }

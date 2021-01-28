@@ -121,6 +121,15 @@ ul.show {
   margin-bottom: 15px;
 }
 
+.borde {
+  border-bottom: 2px solid #ff0080;
+}
+
+.titulosContainer {
+  width: 110px;
+  margin: 0 auto;
+}
+
 @media (min-width: 425px){
     .tituloKinesio {
         font-size: 28px;
@@ -154,7 +163,7 @@ ul.show {
 }
 
 .kinesioDep {
-  background-color: lightgray;
+  background-color: #e6e6e6;
   padding: 15px 0 20px 0;
 }
 

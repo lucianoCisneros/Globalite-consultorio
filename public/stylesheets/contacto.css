@@ -98,7 +98,9 @@ ul.show {
 
 .titulo {
   margin-bottom: 20px;
+  color: white;
   filter: drop-shadow(0 3px 2px gray);
+  border-bottom: 2px solid #00bfff;
 }
 
 .formContainer {
@@ -120,26 +122,28 @@ form {
 
 input {
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-bottom: 20px;
   background-color: transparent;
+  color: white;
 }
 
 input::placeholder {
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: 500;
 }
 
 textarea {
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-bottom: 20px;
   background-color: transparent;
+  color: white;
 }
 
 textarea::placeholder {
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: 500;
 }
@@ -152,11 +156,12 @@ textarea::placeholder {
 .btn {
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 5px;
   font-size: 17px;
   font-weight: 600;
   width: 90%;
+  color: white;
 }
 
 .resetBtn {
@@ -172,7 +177,7 @@ textarea::placeholder {
 
 .footer {
     background-color: #4d4d4d;
-    border-top: 4px solid #9933ff;
+    border-top: 4px solid #00bfff;
     padding: 20px 0 20px 0;
 }
 
@@ -215,7 +220,7 @@ textarea::placeholder {
 }
 
 .footer__map__items:hover {
-    background-color: #9933ff;
+    background-color: #00bfff;
     border-radius: 3px;
     transition: .4s;
 }
