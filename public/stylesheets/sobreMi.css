@@ -10,11 +10,11 @@
 
 /*       Menu       */
 
-.logoMenuContainer {
+.menu__logo__container {
     height: 60px;
 }
 
-.logoMenu {
+.menu__logo {
     display: block;
     margin: 0 auto;
     width: 160px;
@@ -29,22 +29,22 @@
     justify-content: space-between;
 }
 
-.menuItems {
+.menu__items {
     display: flex;
     margin: 0 auto;
 }
 
-.menuItems li a {
+.menu__items li a {
     margin-right: 35px;
     color: black;
     font-weight: 500;
 }
 
-.menuItems li a:hover, a.active {
+.menu__items li a:hover, a.active {
   border-bottom: 2px solid black;
 }
 
-.menuBtn {
+.menu__btn {
   margin-right: 20px;
   font-size: 25px;
   color: black;
@@ -58,10 +58,10 @@ ul.show {
 }
 
 @media (max-width: 695px) {
-  .menuBtn {
+  .menu__btn {
     display: inline-flex;
   }
-  .menuItems {
+  .menu__items {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -72,18 +72,19 @@ ul.show {
     flex-direction: column;
     z-index: 900;
   }
-  .menuItems li{
+  .menu__items li{
     margin: 50px 0 0 0;
   }
-  .menuItems li a:hover, a.active {
+  .menu__items li a:hover, a.active {
     border-bottom: 0;
   }
-  .menuItems li a {
+  .menu__items li a {
     font-size: 20px;
     color: #fff;
+    margin: 0;
   }
-  .menuItems li a:hover {
-    color: lightcoral;
+  .menu__items li a:hover {
+    color: #003cb3;
   }
   li.active {
     background-color: rgba(0, 0, 0, .3);
@@ -113,8 +114,8 @@ ul.show {
 }
 
 .sobreMi {
-  margin-right: 12px;
-  margin-left: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
   align-self: center;
 }
 
@@ -139,11 +140,10 @@ ul.show {
   .imagenPersonal {
     width: 250px;
   }
-}
 
-@media (min-width: 1024px) {
-  .imagenPersonal {
-    width: 300px;
+  .sobreMi {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -155,6 +155,27 @@ ul.show {
 
   .imagenPersonal {
     margin-top: 0px;
+  }
+
+  .sobreMi {
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imagenPersonal {
+    width: 300px;
+  }
+
+  .sobreMi {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sobreMi {
+    padding-left: 150px;
   }
 }
 

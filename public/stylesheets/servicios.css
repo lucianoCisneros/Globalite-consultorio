@@ -10,11 +10,11 @@
 
 /*       Menu       */
 
-.logoMenuContainer {
+.menu__logo__container {
     height: 60px;
 }
 
-.logoMenu {
+.menu__logo {
     display: block;
     margin: 0 auto;
     width: 160px;
@@ -29,22 +29,22 @@
     justify-content: space-between;
 }
 
-.menuItems {
+.menu__items {
     display: flex;
     margin: 0 auto;
 }
 
-.menuItems li a {
+.menu__items li a {
     margin-right: 35px;
     color: black;
     font-weight: 500;
 }
 
-.menuItems li a:hover, a.active {
+.menu__items li a:hover, a.active {
   border-bottom: 2px solid black;
 }
 
-.menuBtn {
+.menu__btn {
   margin-right: 20px;
   font-size: 25px;
   color: black;
@@ -58,10 +58,10 @@ ul.show {
 }
 
 @media (max-width: 695px) {
-  .menuBtn {
+  .menu__btn {
     display: inline-flex;
   }
-  .menuItems {
+  .menu__items {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -72,18 +72,19 @@ ul.show {
     flex-direction: column;
     z-index: 900;
   }
-  .menuItems li{
+  .menu__items li{
     margin: 50px 0 0 0;
   }
-  .menuItems li a:hover, a.active {
+  .menu__items li a:hover, a.active {
     border-bottom: 0;
   }
-  .menuItems li a {
+  .menu__items li a {
     font-size: 20px;
     color: #fff;
+    margin: 0;
   }
-  .menuItems li a:hover {
-    color: lightcoral;
+  .menu__items li a:hover {
+    color: #ff0080;
   }
   li.active {
     background-color: rgba(0, 0, 0, .3);
@@ -96,7 +97,7 @@ ul.show {
 
 /*       Servicios       */
 
-.bannerContainer {
+.banner__container {
   background-image: url(../images/bannerServicios.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -105,7 +106,7 @@ ul.show {
   margin-bottom: 15px;
 }
 
-.tituloKinesio {
+.titulo__kinesio {
   color: white;
   font-size: 26px;
   padding-top: 105px;
@@ -131,25 +132,25 @@ ul.show {
 }
 
 @media (min-width: 425px){
-    .tituloKinesio {
+    .titulo__kinesio {
         font-size: 28px;
     }
 }
 
 @media (min-width: 768px){
-    .tituloKinesio {
+    .titulo__kinesio {
         font-size: 31px;
     }
 }
 
 @media (min-width: 1024px){
-    .tituloKinesio {
+    .titulo__kinesio {
         font-size: 33px;
     }
 }
 
 @media (min-width: 1440px){
-    .tituloKinesio {
+    .titulo__kinesio {
         font-size: 35px;
     }
 }
@@ -157,9 +158,13 @@ ul.show {
 /*       Texto       */
 
 .margenParrafo {
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.punto {
+  color: #ff0080;
 }
 
 .kinesioDep {
@@ -167,7 +172,7 @@ ul.show {
   padding: 15px 0 20px 0;
 }
 
-.tecLesContainer {
+.tecLes__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 30px;
@@ -175,15 +180,29 @@ ul.show {
 
 @media(min-width: 425px){
   .margenParrafo {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
 @media(min-width: 768px){
   .margenParrafo {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media(min-width: 1024px){
+  .margenParrafo {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media(min-width: 1440px){
+  .margenParrafo {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
