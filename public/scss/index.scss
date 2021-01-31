@@ -99,7 +99,7 @@ ul.show {
   }
 }
 
-/*       Seccion Principal       */
+/*       Banner       */
 
 .banner {
     height: 455px;
@@ -149,7 +149,7 @@ ul.show {
     }
 }
 
-/*       Contenido de texto       */
+/*       Globalite       */
 
 .introduccion {
     background-color: #e6e6e6;
@@ -196,7 +196,7 @@ ul.show {
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1440px){
     .introduccion__parrafo {
         padding-left: 150px;
         padding-right: 150px;
@@ -204,7 +204,7 @@ ul.show {
 }
 
 
-/*       Coberturas       */
+/*       Coberturas Medicas       */
 
 .coberturas__titulo__container {
     width: 130px;
@@ -251,10 +251,6 @@ ul.show {
         width: 160px;
     }
 }
-
-/*       Boton arriba       */
-
-
 
 /*       Footer       */
 

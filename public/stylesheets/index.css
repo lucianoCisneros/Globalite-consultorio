@@ -79,7 +79,7 @@ ul.show {
   a.active {
     border: 0px; } }
 
-/*       Seccion Principal       */
+/*       Banner       */
 .banner {
   height: 455px;
   background-image: url(../images/bannerHome.png);
@@ -116,7 +116,7 @@ ul.show {
   .banner__titulo {
     font-size: 35px; } }
 
-/*       Contenido de texto       */
+/*       Globalite       */
 .introduccion {
   background-color: #e6e6e6; }
 
@@ -151,12 +151,12 @@ ul.show {
     padding-left: 100px;
     padding-right: 100px; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .introduccion__parrafo {
     padding-left: 150px;
     padding-right: 150px; } }
 
-/*       Coberturas       */
+/*       Coberturas Medicas       */
 .coberturas__titulo__container {
   width: 130px;
   margin: 0 auto; }
@@ -189,7 +189,6 @@ ul.show {
   .coberturas__img {
     width: 160px; } }
 
-/*       Boton arriba       */
 /*       Footer       */
 .footer {
   background-color: #4d4d4d;
