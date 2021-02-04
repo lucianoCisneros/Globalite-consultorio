@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seccion de consultas del consultorio de Kinesiologia Globalite">
+    <meta name="keywords" content="Contacto, Consultas, Comentarios, Kinesiologia, Globalite">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./public/stylesheets/contacto.css">
+    <link rel="stylesheet" href="./public/stylesheets/estilos.css">
     <title>Globalite | Contacto</title>
 </head>
 <body>
@@ -43,10 +45,10 @@
 
     <section>
 
-        <div class="formContainer">
+        <div class="formulario__container">
 
             <div>
-                <h2 class="titulo">Si tenes alguna consulta, no dudes en contactarnos<span class="punto">.</span></h2>
+                <h2 class="contacto__titulo">Si tenes alguna consulta, no dudes en contactarnos<span class="contacto__punto">.</span></h2>
             </div>
 
             <form action="">
@@ -56,9 +58,9 @@
                 <input type="email" name="email" placeholder="E-Mail">
                 <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
             
-                <div class="btnsContainer">
-                    <button type="submit" class="btn">Enviar</button>
-                    <button type="reset" class="resetBtn btn">Borrar</button>
+                <div class="botones__container">
+                    <button type="submit" class="botones">Enviar</button>
+                    <button type="reset" class="botones__reset botones">Borrar</button>
                 </div>
             
             </form>
@@ -69,7 +71,7 @@
 
     <!--Footer-->
     
-    <footer class="footer">
+    <footer class="footer footer__contacto">
 
         <div class="footer__borde">
 
@@ -87,15 +89,16 @@
         </div>
 
         <ul class="footer__map">
-            <li><a class="footer__map__items" href="servicios.html">Servicios</a></li>
-            <li><a class="footer__map__items" href="sobreMi.html">Sobre mi</a></li>
-            <li><a class="footer__map__items" href="ubicacion.html">Ubicacion</a></li>
-            <li><a class="footer__map__items" href="contacto.html  ">Contacto</a></li>
+            <li><a class="footer__map__items footer__map__items--contacto" href="servicios.html">Servicios</a></li>
+            <li><a class="footer__map__items footer__map__items--contacto" href="sobreMi.html">Sobre mi</a></li>
+            <li><a class="footer__map__items footer__map__items--contacto" href="ubicacion.html">Ubicacion</a></li>
+            <li><a class="footer__map__items footer__map__items--contacto" href="contacto.html  ">Contacto</a></li>
         </ul>
         
     </footer>
 
     <script src="./public/javascript/navBar.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
 </body>
 </html>
