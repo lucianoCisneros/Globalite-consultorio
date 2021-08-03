@@ -1,0 +1,1 @@
+Sitio realizado para el centro de kinesiologia Globalité, una pagina sencila, pero funcional para el objetivo del cliente la cual es darse a mostrar y brindar la información y virtudes del estudio y la kinseiologia. Desarrollada en Html, css y JavaScript para el navbar. Pagina completamente responsive, utilizando las buenas practicas de Mobile First.
